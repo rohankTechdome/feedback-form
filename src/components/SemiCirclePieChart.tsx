@@ -13,7 +13,7 @@ const COLORS = ["#6c63ff", "#e0e0ff"]; // Violet and light violet
 const SemiCirclePieChart: React.FC<SemiCirclePieChartProps> = ({ data }) => (
   <div className="relative w-[201px] h-[104px]">
     {/* Semi-Circle Chart */}
-    <PieChart width={201} height={208}>
+    <PieChart width={201} height={104}>
       <Pie
         data={data}
         cx={100.5} // Half of the width (center of the semi-circle)
