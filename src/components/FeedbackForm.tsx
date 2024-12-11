@@ -30,9 +30,9 @@ const FeedbackForm: React.FC = () => {
     <div className="w-full h-screen border-4 flex items-center justify-between">
           <div className="max-w-[471px] max-h-full mx-auto p-[18px] border border-gray-300 rounded-[12px] shadow-md bg-white gap-[26px] flex flex-col justify-between">
               <div className="flex flex-row justify-between">
-                <h2 className="font-pulp  font-normal text-[18px] text-center leading-[21.6px]">Your Feedback Matters</h2>
-                <div className="flex items-center justify-center w-[56px] h-[26px] rounded-[4px] border-[1px] px-[1px] py-[16px] gap-[8px]">
-                  <button className="font-pulp">Skip</button>
+                <h2 className="font-pulp font-400 text-[18px] text-center leading-[21.6px]">Your Feedback Matters</h2>
+                <div className="flex items-center justify-center w-[56px] h-[26px] rounded-[4px] border-[1px] px-[1px] py-[16px] gap-[8px] border-[#5F60FA]">
+                  <button className="font-pulp text-[#5F60FA]">Skip</button>
                 </div>
 
               </div>

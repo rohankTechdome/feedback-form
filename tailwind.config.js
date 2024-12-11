@@ -7,7 +7,7 @@ export default {
   theme: {
 		extend: {
 			fontFamily: {
-				pulp: ['Pulp Display', 'sans-serif'], // Add the font here
+				pulp: ['Pulp Display'], // Add the font here
 			  },
 			borderRadius: {
 				lg: 'var(--radius)',

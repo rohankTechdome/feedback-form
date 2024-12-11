@@ -1,9 +1,15 @@
-import FeedbackForm from "./FeedbackForm"
+import FeedbackForm from "./components/FeedbackForm"
+import ReportPage from "./components/ReportPage"
+import { exampleData } from "./components/ReportPage"
+
 
 export default function App() {
+
   return (
     <div>
-      <FeedbackForm/>
+      {/* <FeedbackForm/> */}
+      <ReportPage data={exampleData}/>
+
     </div>
   )
 }
