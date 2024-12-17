@@ -24,7 +24,7 @@ export const exampleData: ReportData = {
   questionsAnswered: 3,
   totalQuestions: 5,
   answerAccuracy: [1, 2, 4, 5, 3, 5, 4, 5], // Example accuracy data
-  roleFitPercentage: 60, // 67% fit
+  roleFitPercentage: 20, // 67% fit
   email: "john.davidson@gmail.com",
 };
 const chartData = exampleData.answerAccuracy.map((accuracy, index) => ({
@@ -107,7 +107,8 @@ const ReportPage: React.FC<{ data: ReportData }> = ({ data }) => {
           </div>
 
           {/* Encouragement Section */}
-          <div className="lg:w-[1252px] lg:h-[143px] border rounded-[10px] lg:py-[9px] lg:px-[364px] flex flex-col items-center justify-center sm:mt-6 md:mt-8 lg:gap-[10px] bg-blue-500">
+          <div className="lg:w-[1252px] lg:h-[143px] border border-red-500 lg:py-[9px] lg:px-[364px] flex flex-col items-center justify-center sm:mt-6 md:mt-8 gap-[10px] bg-gradient-to-br from-[#9C9DFF] rounded-tr-lg rounded-br-lg to-[#5053C1]"
+          >
 
               <div className="lg:w-[524px] lg:h-[107px] flex flex-col items-center justify-center lg:gap-[6px]">
                   <div className="lg:w-[524px] lg:h-[49px] lg:p-[10px] text-center">

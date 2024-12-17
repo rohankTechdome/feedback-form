@@ -93,6 +93,9 @@ export default {
 		fontFamily: {
 			sans: ['inter', 'sans-serif'], // Use Inter as the default sans font
 		},
+		backgroundImage: {
+			'custom-gradient': 'linear-gradient(to bottom, #5F60FA 100%, #FFFFFF 90%)',
+		},
 	},
   plugins: [],
 }
